@@ -1,5 +1,9 @@
 # AI Gateway
 
+[![CI](https://github.com/safronovlab/ai-gateway-poc/actions/workflows/ci.yml/badge.svg)](https://github.com/safronovlab/ai-gateway-poc/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 **Async API gateway between business logic and LLM providers.**
 
 A production-ready intelligent proxy layer between internal services and external LLM providers (via Portkey). Centralized request logging, runtime guardrail policies, encrypted credential storage, and a web admin UI. Built on Clean Architecture with full async I/O end to end.
